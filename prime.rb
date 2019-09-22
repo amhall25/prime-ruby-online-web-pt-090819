@@ -6,6 +6,9 @@ def prime?(num)
     end
     n += 1
   end
-  
+  if n>num
+    return false
+  else
   true
+end
 end
