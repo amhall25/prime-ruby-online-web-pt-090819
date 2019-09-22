@@ -3,8 +3,6 @@ def prime?(num)
   while n < num
     if num % n == 0
       return false
-    else num <0
-      return false
     end
     n += 1
   end
